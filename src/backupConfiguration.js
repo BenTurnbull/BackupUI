@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from './component/button.js'
 import BackupSelection from './backupSelection.js'
-import CenterComponent from 'react-center-component';
+import CenteredContainer from './component/centeredContainer.js';
 
 export default class Backup extends React.Component {
 
@@ -38,8 +38,9 @@ export default class Backup extends React.Component {
               </ul>
             </div>
 
-          <br/>
-            <Button value="Backup" callback={() => {}}/>
+            <div className="bottom">
+              <CenteredContainer children={<Button value="Backup" callback={() => {console.log('Backup');}}/>}/>
+            </div>
       </div>
     );
   }

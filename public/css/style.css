@@ -32,7 +32,6 @@ input {
 .source-btn {
 	margin-top: 80px;
 }
-.backup-container {}
 .left {
   margin-right: 40px;
   display: inline-block;
@@ -43,9 +42,13 @@ input {
   display: inline-block;
 }
 .center {
-  margin-left: 280px;
-  margin-top: 150px;
+	margin-left: 280px;
+	margin-top: 150px;
   display: block;
+}
+.bottom {
+	position: absolute;
+  bottom: 180px;
 }
 .large {
   font-size: 1.8em;
@@ -142,6 +145,7 @@ input {
   margin: 0;
   padding: 0;
 }
+
 ul li{
   color: #AAAAAA;
   display: block;

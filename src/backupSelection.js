@@ -75,7 +75,7 @@ export default class BackupSelection extends React.Component {
     );
 
     return <div>
-            <Button value="Add +" callback={this.toggle}/>
+            <Button value="Edit" callback={this.toggle}/>
             {
               isOpen &&
                 <ModalContainer onClose={this.toggle}>
